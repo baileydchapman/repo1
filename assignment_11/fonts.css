@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Sauce Tomato';
+    src: url('https://www.dafont.com/earlygameboy.font') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Sauce Tomato', Arial, sans-serif;
+    /* Additional styles for the body */
+}
+
+h1, h2 {
+    font-family: 'Sauce Tomato', Arial, sans-serif;
+    /* Additional styles for headings */
+}
