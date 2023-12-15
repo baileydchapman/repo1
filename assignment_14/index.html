@@ -1,0 +1,37 @@
+<<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The History of Santa Claus</title>
+
+    <body>
+       
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+
+<!-- Home Section -->
+<section id="home" class="py-5">
+    <div class="container text-center">
+        <h1 class="display-4">Welcome to the History of Santa</h1>
+        <p class="lead">Discover the fascinating journey of Santa Claus.</p>
+        <img src="https://tse3.mm.bing.net/th?id=OIP.kviTzqNAJZP2gzy3gpFlMwHaG0&pid=Api&P=0&h=220" alt="Santa Claus" class="img">
+    </section>
+    <button onclick="revealMessage()">Click to hear a secret message from Santa</button>
+
+    <div id="hidden-message">Ho, Ho, Ho! Merry Christmas!</div>
+  
+    <script>
+      function revealMessage() {
+        var hiddenMessage = document.getElementById("hidden-message");
+        hiddenMessage.style.display = "block";
+      }
+    </script>
+  
+  </body>
+  </html>
+        
